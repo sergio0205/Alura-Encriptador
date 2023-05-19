@@ -1,0 +1,74 @@
+body {
+  background-image: url(img/code-technology-wallpaper-preview.jpg)
+}
+
+h1{
+  text-align: center;
+  color: green;
+}
+
+h1:hover{
+  color: white;
+}
+
+button{
+  margin: 20px;
+}
+
+button:hover{
+  width: 160px;
+  height: 60px;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  border-radius: 12px;
+  box-shadow: none;
+  border: solid 1px black;
+}
+
+.btn-div {
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+
+#input-div {
+  padding: 10px;
+  text-align: center;
+}
+
+#output-div {
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  display: block;
+  text-align: center;
+}
+
+#input::placeholder {
+  text-align: center;
+}
+
+#input {
+  width: 500px;
+  height: 180px;
+  border-radius: 10px;
+  border: solid 1px black;
+  opacity: 0.3;
+}
+
+#output {
+  width: 500px;
+  height: 180px;
+  border-radius: 10px;
+  border: solid 1px black;
+  opacity: 0.3;
+}
